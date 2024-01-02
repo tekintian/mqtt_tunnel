@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Go模块调试(可带参数)",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceRoot}",
+            "cwd": "${workspaceRoot}",
+            "args": [
+                "serve",
+                "-port=80",
+                "-host=0.0.0.0",
+                "-mq-port=1883",
+                "-username=admin",
+                "-password=888888"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+dist/
+public.pem
+private.pem
+dev.md
+*.sum
